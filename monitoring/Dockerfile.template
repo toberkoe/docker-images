@@ -1,0 +1,3 @@
+FROM toberkoe/wildfly:%%WILDFLY_VERSION%%
+LABEL maintainer="Tobias Bertram-Köhler, toberkoe.de" description="Wildfly %%WILDFLY_VERSION%% with monitoring"
+COPY ../monitoring.war ${DEPLOYMENT_DIR}
