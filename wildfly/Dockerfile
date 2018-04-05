@@ -1,4 +1,4 @@
-FROM openjdk/10-jre
+FROM openjdk:10-jre
 LABEL maintainer="Tobias Bertram-Köhler, toberkoe.de" description="Wildfly 12.0.0.Final"
 ENV VERSION 12.0.0.Final
 ENV INSTALL_DIR /opt
